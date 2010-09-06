@@ -10,11 +10,11 @@ Adds a field to the user's profile for redirection upon login.
 
 == Description ==
 
-This plugin will add a field to users’ profiles specifically for redirecting the user upon a successful login.  If no redirect is specified the standard login rules will apply.  It doesn’t currently support bulk redirects as in the instance of redirecting users with a specific role.  Simple Login Redirect does support local redirects and redirects that point to another site.  
+This plugin will add a field to users' profiles specifically for redirecting the user upon a successful login.  If no redirect is specified the standard login rules will apply.  It doesn't currently support bulk redirects as in the instance of redirecting users with a specific role.  Simple Login Redirect does support local redirects and redirects that point to another site.  
 
 == Installation ==
 
-Download and unzip to your WordPress Plugin folder.  Then simple activate the plugin.  The field for redirection will be added to the end of the user’s profiles.  Input the full URL’s including HTTP:// and the save the profile.  The next time this user logs in they will be redirected to the URL you have specified.  
+Download and unzip to your WordPress Plugin folder.  Then simple activate the plugin.  The field for redirection will be added to the end of the user's profiles.  Input the full URL's including http:// and the save the profile.  The next time this user logs in they will be redirected to the URL you have specified.  
 
 == Screenshots ==
 
