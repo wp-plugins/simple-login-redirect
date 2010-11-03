@@ -24,8 +24,14 @@ class Simple_redirect {
 	function do_simple_redirect($redirect_to,  $requested_redirect_to)
 	{
 		global $user;
-   
-		$redirect = get_user_meta($user->ID, 'redirect_url', TRUE);
+   		global $wpdb;
+		
+		$row = $wpdb->get_row("SELECT meta_value AS redirect FROM {$wpdb->prefix}usermeta WHERE meta_key = 'redirect_url' AND user_id = {$user->ID}");
+   	
+   		$redirect = $row->redirect;
+		
+		//THIS FUNCTION IS NOT IN VERSIONS OF WORDPRESS BEFORE 3.0
+		//$redirect = get_user_meta($user->ID, 'redirect_url', TRUE);
    
 		if(!empty($redirect)){
    
