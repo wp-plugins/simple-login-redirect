@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Plugin Name === 
 Contributors: kegentile
 Donate link: 
 Tags: login, redirect, admin, administration, dashboard, users, authentication
