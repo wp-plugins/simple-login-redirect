@@ -5,7 +5,7 @@ Plugin URI: http://www.wpinsideout.com/plugins/a-simple-redirect
 Author: Kyle G.
 Author URI: http://www.wpinsideout.com
 Description: It adds a new field to the user profile that can contain a URL which will be used to redirect the user to a specific page upon a successful login.
-Version:1.0
+Version:1.12
 */
 
 class Simple_redirect {
